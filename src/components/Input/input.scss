@@ -1,0 +1,26 @@
+.input {
+  display: block;
+  width: 100%;
+  padding: .9rem 1rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn {
+  border: none;
+  background: black;
+  color: white;
+  border: 3px solid black;
+  transition: all 1s;
+  cursor: pointer;
+
+  &:hover {
+    background: transparent;
+    color: white;
+  }
+}

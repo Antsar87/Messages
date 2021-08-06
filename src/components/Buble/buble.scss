@@ -1,0 +1,24 @@
+.flex {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.send {
+  flex-direction: row-reverse;
+}
+
+.box {
+
+
+  &_name {
+    font-size: 0.5rem;
+    text-align: start;
+  }
+  &_text {
+    font-size: 1.3rem;
+    margin-top: .3rem;
+    margin-bottom: 0;
+  }
+}
